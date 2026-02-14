@@ -6,7 +6,7 @@
     # uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3 
 name: Reusable user config build
 
-on: [workflow_dispatch]
+on:
   workflow_call:
     inputs:
       build_matrix_path:
